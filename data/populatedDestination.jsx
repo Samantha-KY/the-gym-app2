@@ -3,14 +3,14 @@ export default[
         city: "Kigali",
         averegePrice: 120,
         properCount: 76,
-        imageUrl:"/public/kigali.jpg",
+        imageUrl:"../public/kigali.jpg",
         imageAlt:"Kigali Photo",
     },
     {
         city: "Huye",
         averegePrice: 215,
         properCount: 43,
-        imageUrl:"/public/huye.jpg",
+        imageUrl:"../public/huye.jpg",
         imageAlt:"huye Photo",
     },
     {
