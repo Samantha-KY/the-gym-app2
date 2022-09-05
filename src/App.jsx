@@ -58,7 +58,7 @@ function App() {
     <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto  lg:px-12 py-10 px-20">
       {/* <h2 class="text-xl text-gray-900">Popular Destinations in Rwanda</h2>
       <p class="mt-2 text-gray-700">A selection of great work-friendly cities with lots to see and explore.</p> */}
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 object-full">
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-20 object-full">
       {populatedDestination.map(destination => (
       <DestinationCard destination={destination} key={destination.city}/>
     ))} 
