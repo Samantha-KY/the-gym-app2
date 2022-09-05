@@ -11,7 +11,7 @@ function App() {
     <nav class="bg-white border-gray-200 px-2 md:px-4 py-2.5 dark:bg-gray-100">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         {/* <div> */}
-      <img class="h-20 bg-white" src="/public/airbnb.jpg" alt="airbnb logo"/>
+      <img class="h-20 bg-white" src="airbnb.jpg" alt="airbnb logo"/>
       {/* </div> */}
       <form> 
     <label for="default-search" class="mb-2 text-sm font-medium text-white sr-only dark:text-white ">Search</label>
@@ -23,7 +23,7 @@ function App() {
         <button type="submit" class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-black-300">Search</button>
     </div>
 </form>
-<div><h2 className="font-semibold p-4">Become a Host</h2><img className="h-5" src="/public/icons8-world-64.png"/></div>
+<div><h2 className="font-semibold p-4">Become a Host</h2><img className="h-5" src="icons8-world-64.png"/></div>
 </div>
 </nav>
 {/* </div> */}
