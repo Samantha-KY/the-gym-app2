@@ -8,11 +8,11 @@ function App() {
   return (
     <div>
     <body class="bg-gray-100">
-    
-      <div class="grid lg:grid-cols-4 2xl:grid-cols-3 gap-3 ">
-        <div>
-      <img class="h-20 " src="/public/airbnb.jpg" alt="airbnb logo"/>
-      </div>
+    <nav class="bg-white border-gray-200 px-2 md:px-4 py-2.5 dark:bg-gray-100">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        {/* <div> */}
+      <img class="h-20 bg-white" src="/public/airbnb.jpg" alt="airbnb logo"/>
+      {/* </div> */}
       <form> 
     <label for="default-search" class="mb-2 text-sm font-medium text-white sr-only dark:text-white ">Search</label>
     <div class="relative ">
@@ -23,9 +23,11 @@ function App() {
         <button type="submit" class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-black-300">Search</button>
     </div>
 </form>
-<div><h2 className="font-semibold p-4">Become a Host<img className="h-10" src="/public/icons8-world-64.png"/></h2></div>
-
+<div><h2 className="font-semibold p-4">Become a Host</h2><img className="h-5" src="/public/icons8-world-64.png"/></div>
 </div>
+</nav>
+{/* </div> */}
+<div class="grid gap-3 ">
       <div class="mt-4 space-x-3 sm:mt-6">
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> OMG! </a>
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'>National park </a>
@@ -50,7 +52,8 @@ function App() {
     {/* <div class="hidden relative lg:block 2xl:col-span-3">
     <img  class="absolute inset-0 w-full h-full object-cover object-center" src='/public/img1.jpg' alt='woman workcationing on the beach'/>
     </div> */}
-    {/* </div> */}
+    </div>
+    
     </body>
     <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto  lg:px-12 py-10 px-20">
       {/* <h2 class="text-xl text-gray-900">Popular Destinations in Rwanda</h2>
@@ -61,6 +64,7 @@ function App() {
     ))} 
       </div>
     </div>
+  
     <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-white">
     <span class="text-sm text-gray-500 sm:text-center dark:text-black">© 2022 Airbnb,Inc
     </span>
