@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
     <body class="bg-gray-100">
-    <nav class="bg-white border-gray-200 px-2 md:px-4 py-2.5 dark:bg-gray-100">
+    <nav class="bg-white border-gray-200 h-15 sm:px-2 lg:px-5 md:px-4 dark:bg-gray-100">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         {/* <div> */}
       <img class="h-20 bg-white" src="airbnb.jpg" alt="airbnb logo"/>
@@ -23,18 +23,18 @@ function App() {
         <button type="submit" class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-black-300">Search</button>
     </div>
 </form>
-<div><h2 className="font-semibold p-4">Become a Host</h2><img className="h-5" src="icons8-world-64.png"/></div>
+<div><h2 className="font-semibold p-4">Become a Host<img className="h-5" src="icons8-world-64.png"/></h2></div>
 </div>
 </nav>
 {/* </div> */}
-<div class="grid gap-3 ">
-      <div class="mt-4 space-x-3 sm:mt-6">
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> OMG! </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'>National park </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> Amazing pools </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'>Islands </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> Arctic </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'>Tiny homes </a>
+<div class=" ">
+      <div class=" grid grid-cols-10 mt-4 px-20 sm:mt-6 space-x-4">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="icons8-world-64.png"/> OMG! </a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> <img className="h-5 px-3" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"/>National park </a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"/> Amazing pools </a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"/> Islands </a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"/> Arctic </a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"/> Tiny homes </a>
         </div>
       {/* <div class="px-8 py-12 max-w-md  sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
         <div class="xl:max-w-xl">
