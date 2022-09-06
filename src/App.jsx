@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-    <body class="bg-gray-100">
+    <body class="bg-gray-50">
     <nav class="bg-white border-gray-200 h-15 sm:px-2 lg:px-5 md:px-4 dark:bg-gray-100">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         {/* <div> */}
@@ -23,19 +23,13 @@ function App() {
         <button type="submit" class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-black-300">Search</button>
     </div>
 </form>
-<div><h2 className="font-semibold p-4">Become a Host<img className="h-5" src="icons8-world-64.png"/></h2></div>
+<div>
+  <h2 className="font-semibold p-4">Become a Host<img className="h-5" src="icons8-world-64.png"/></h2>
+  </div>
 </div>
 </nav>
 {/* </div> */}
-<div>
-      <div class=" grid grid-cols-10 mt-4 px-20 sm:mt-6 space-x-4">
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="icons8-world-64.png"/> OMG! </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> <img className="h-5 px-3" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"/>National park </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"/> Amazing pools </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"/> Islands </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"/> Arctic </a>
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"/> Tiny homes </a>
-        </div>
+      
       {/* <div class="px-8 py-12 max-w-md  sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
         <div class="xl:max-w-xl">
         <img class="mt-1 rounded-lg shadow-xl sm:mt-5 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden " src='/public/img1.jpg' alt='woman workcationing on the beach'/>
@@ -52,9 +46,175 @@ function App() {
     {/* <div class="hidden relative lg:block 2xl:col-span-3">
     <img  class="absolute inset-0 w-full h-full object-cover object-center" src='/public/img1.jpg' alt='woman workcationing on the beach'/>
     </div> */}
-    </div>
-    
     </body>
+    <div class="flex flex-col bg-white m-auto p-auto">
+      <div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
+        <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"/>OMG!</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'> <img className="h-5 px-3" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"/>National park</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"/>Amazing pools</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg"/>Islands</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg"/>Arctic</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg"/>Tiny homes</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg"/>Design</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'> <img className="h-5 px-3" src="https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg"/>Surfing</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"/>Cabins</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg"/>Lakefront</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770.jpg"/>Camping</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325.jpg"/>Bed & breakfasts</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/4221e293-4770-4ea8-a4fa-9972158d4004.jpg"/>Cave</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Tropical</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Shared homes</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Earth homes</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Countryside</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Luxe</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Farms</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Amazing views</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Castles</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Beach</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>A-frame</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Mansions</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Golfing</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Historical homes</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Windmills</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Skiing</a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+          <div class="inline-block px-3">
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
+          </div>
+        </div>
+      </div>
+</div>
     <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto  lg:px-12 py-10 px-20">
       {/* <h2 class="text-xl text-gray-900">Popular Destinations in Rwanda</h2>
       <p class="mt-2 text-gray-700">A selection of great work-friendly cities with lots to see and explore.</p> */}
