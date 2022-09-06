@@ -27,7 +27,7 @@ function App() {
 </div>
 </nav>
 {/* </div> */}
-<div class=" ">
+<div>
       <div class=" grid grid-cols-10 mt-4 px-20 sm:mt-6 space-x-4">
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="icons8-world-64.png"/> OMG! </a>
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> <img className="h-5 px-3" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"/>National park </a>
@@ -58,14 +58,14 @@ function App() {
     <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto  lg:px-12 py-10 px-20">
       {/* <h2 class="text-xl text-gray-900">Popular Destinations in Rwanda</h2>
       <p class="mt-2 text-gray-700">A selection of great work-friendly cities with lots to see and explore.</p> */}
-      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-20 object-full">
+      <div class="card">
       {populatedDestination.map(destination => (
       <DestinationCard destination={destination} key={destination.city}/>
     ))} 
       </div>
     </div>
   
-    <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-white">
+    <footer class="p-4 bg-gray-300 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-white">
     <span class="text-sm text-gray-500 sm:text-center dark:text-black">© 2022 Airbnb,Inc
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-black sm:mt-0">
@@ -76,7 +76,7 @@ function App() {
             <a href="#" class="mr-4 hover:underline md:mr-6">Terms . </a>
         </li>
         <li>
-            <a href="#" class="hover:underline">sitemap</a>
+            <a href="#" class="hover:underline">sitemap </a>
         </li>
     </ul>
 </footer>
