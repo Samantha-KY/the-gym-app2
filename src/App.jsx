@@ -23,8 +23,16 @@ function App() {
         <button type="submit" class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-black-300">Search</button>
     </div>
 </form>
-<h2 className="font-semibold">Become a Host</h2>
-<img className="h-5 px-0" src="icons8-world-64.png"/>
+{/* <h2 className="font-semibold">Become a Host</h2>
+<img className="h-5 px-0" src="icons8-world-64.png"/> */}
+<ul class="flex flex-wrap  mt-3 text-sm text-gray-500 dark:text-black sm:mt-0">
+        <li>
+        <h2 className="font-semibold">Become a Host</h2>
+        </li>
+        <li>
+        <img className="h-5 px-0" src="icons8-world-64.png"/>
+        </li>
+    </ul>
 </div>
 </nav>
     </body>
@@ -207,20 +215,27 @@ function App() {
       </div>
     </div>
   
-    <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-white">
-    <span class="text-sm text-gray-500 sm:text-center dark:text-black">© 2022 Airbnb,Inc
-    </span>
+    <footer class="  p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-white">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-black">
+    
     <ul class="flex flex-wrap  mt-3 text-sm text-gray-500 dark:text-black sm:mt-0">
-        <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy . </a>
+    <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">© 2022 Airbnb,Inc.</a>
         </li>
         <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6">Terms . </a>
+            <a href="#" class="mr-4 hover:underline md:mr-6">.    Privacy. </a>
         </li>
         <li>
-            <a href="#" class="hover:underline">sitemap</a>
+            <a href="#" class="mr-4 hover:underline md:mr-6">  Terms . </a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline"> sitemap  .  </a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">  Destinations      . </a>
         </li>
     </ul>
+    </span>
 </footer>
     </div>
   )
