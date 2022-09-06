@@ -7,11 +7,11 @@ function App() {
 
   return (
     <div>
-    <body class="bg-gray-50">
-    <nav class="bg-white border-gray-200 h-15 sm:px-2 lg:px-5 md:px-4 dark:bg-gray-100">
+    <body class="flex flex-col bg-white m-auto p-auto text-s">
+    <nav class="bg-white border-gray-200 h-15 sm:px-2 lg:px-5 md:px-4 dark:bg-gray-100 ">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         {/* <div> */}
-      <img class="h-20 bg-white" src="airbnb.jpg" alt="airbnb logo"/>
+      <img class="h-20 bg-white " src="airbnb.jpg" alt="airbnb logo"/>
       {/* </div> */}
       <form> 
     <label for="default-search" class="mb-2 text-sm font-medium text-white sr-only dark:text-white ">Search</label>
@@ -23,38 +23,19 @@ function App() {
         <button type="submit" class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-4 py-2 dark:bg-white dark:hover:bg-white dark:focus:ring-black-300">Search</button>
     </div>
 </form>
-<div>
-  <h2 className="font-semibold p-4">Become a Host<img className="h-5" src="icons8-world-64.png"/></h2>
-  </div>
+<h2 className="font-semibold">Become a Host</h2>
+<img className="h-5 px-0" src="icons8-world-64.png"/>
 </div>
 </nav>
-{/* </div> */}
-      
-      {/* <div class="px-8 py-12 max-w-md  sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
-        <div class="xl:max-w-xl">
-        <img class="mt-1 rounded-lg shadow-xl sm:mt-5 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden " src='/public/img1.jpg' alt='woman workcationing on the beach'/>
-        <h1 class="mt-1 text-2xl font-normal text-gray-900 sm:mt-8 sm:text-4xl lg:txt-3xl xl:text-4xl">you can work from anywhere. <br class='hidden lg:inline'/><span class="text-brand">Take advantage of it.</span></h1>
-        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-          Bootcamps are the best places you can learn and meet new people.
-        </p>
-        <div class="mt-4 space-x-2 sm:mt-6">
-          <a class="btn btn-primary shadow-lg hover:-translate-y-0.5 transform transition" href='#'>Book you bootCamp Now</a>
-          <a class="btn btn-secondary" href='#'>Learn more</a>
-        </div>
-        </div> */}
-    {/* </div> */}
-    {/* <div class="hidden relative lg:block 2xl:col-span-3">
-    <img  class="absolute inset-0 w-full h-full object-cover object-center" src='/public/img1.jpg' alt='woman workcationing on the beach'/>
-    </div> */}
     </body>
-    <div class="flex flex-col bg-white m-auto p-auto">
+    <div class="flex flex-col bg-white m-auto p-auto text-s">
       <div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
         <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
           <div class="inline-block px-3">
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"/>OMG!</a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg"/>OMG!</a>
           </div>
           <div class="inline-block px-3">
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'> <img className="h-5 px-3" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"/>National park</a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black" href='#'> <img className="h-5 px-3" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg"/>National park</a>
           </div>
           <div class="inline-block px-3">
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"/>Amazing pools</a>
@@ -132,7 +113,7 @@ function App() {
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Windmills</a>
           </div>
           <div class="inline-block px-3">
-          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/>Skiing</a>
+          <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
           </div>
           <div class="inline-block px-3">
           <a class="font-normal transition duration-50 border-b-2 border-transparent hover:border-black m-auto" href='#'><img className="h-5 px-3" src=""/></a>
@@ -215,10 +196,11 @@ function App() {
         </div>
       </div>
 </div>
+    
     <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto  lg:px-12 py-10 px-20">
       {/* <h2 class="text-xl text-gray-900">Popular Destinations in Rwanda</h2>
       <p class="mt-2 text-gray-700">A selection of great work-friendly cities with lots to see and explore.</p> */}
-      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-20 object-full">
+      <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-4 gap-5 object-full">
       {populatedDestination.map(destination => (
       <DestinationCard destination={destination} key={destination.city}/>
     ))} 
@@ -228,7 +210,7 @@ function App() {
     <footer class="p-4 bg-white shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-white">
     <span class="text-sm text-gray-500 sm:text-center dark:text-black">© 2022 Airbnb,Inc
     </span>
-    <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-black sm:mt-0">
+    <ul class="flex flex-wrap  mt-3 text-sm text-gray-500 dark:text-black sm:mt-0">
         <li>
             <a href="#" class="mr-4 hover:underline md:mr-6">Privacy . </a>
         </li>
